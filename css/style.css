@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+html,
+body {
+  background: #26282b;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.btntop {
+    position: fixed;
+    bottom: 20vh;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fdfdfd;
+  
+    
+    font-size: 1.5rem;
+   
+}
+
+.FlipMe {
+    position: fixed;
+    top: 2vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-size: 64px;
+}
+
+.coinapp {
+  
+        position: fixed;
+        top: 46vh;
+        left: 25vw;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: #fff;
+        font-size: 64px;
+}
+
+.FlipMetext {
+    position: fixed;
+    top: 18vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.btntop a {
+    transition: background 0.1s linear, box-shadow 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: transparent;
+    color: #fff;
+    border-radius: 1rem;
+    width: 100px;
+    height: 50px;
+    background: #36383f;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+}
+
+.kotf {
+    opacity: 0.3;
+}
+
+
+
+
+
+.btn {
+  position: fixed;
+  bottom: 12vh;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fdfdfd;
+
+  
+  font-size: 1.5rem;
+  
+}
+.btn a:hover {
+  cursor: pointer;
+  background: #3e4146;
+  box-shadow: 0 0 3px 5px rgba(0,0,0,0.5);
+}
+.hov:hover {
+    cursor: pointer;
+    background: #3e4146;
+    box-shadow: 0 0 3px 5px rgba(0,0,0,0.5);
+}
+
+.btnbtn {
+    transition: background 0.1s linear, box-shadow 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 250px;
+    height: 50px;
+    background: #36383f;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+}
+
+.btn a {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #36383f;
+    color: #fff;
+    text-decoration: transparent;
+    border-radius: 1rem;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+}
+
+.ca {
+    position: fixed;
+    bottom: 3vh;
+    width: 400px;
+    height: 20px;
+    color: #fff;
+    background: #36383f;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img.icon {
+    width: 18px;
+    filter: invert(1);
+}
+#coin {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#coin.spinning {
+  -webkit-animation: flip 4s infinite linear;
+          animation: flip 4s infinite linear;
+}
+@-webkit-keyframes flip {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+@keyframes flip {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+#coin.finished {
+  transform: rotateZ(-90deg);
+}
+.kotf:hover {
+    cursor: pointer;
+    background: #36383f !important;
+   
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5) !important;
+}
+
+html,
+body {
+  background: #f5f5f5; /* Светлый фон */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Gochi Hand', cursive;
+  color: #333333; /* Основной цвет текста */
+}
+
+.btntop a {
+  background: #e0e0e0; /* Светло-серый */
+  color: #333333; /* Темный текст */
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); /* Легкая тень */
+}
+
+.btntop a:hover {
+  background: #d0d0d0; /* Темнее при наведении */
+  box-shadow: 0 0 3px 5px rgba(0,0,0,0.2); /* Усиленная тень */
+}
+
+.FlipMe, .FlipMetext, .coinapp {
+  color: #333333; /* Темный текст */
+}
+
+.btnbtn {
+  background: #e0e0e0; /* Светло-серый */
+  color: #333333; /* Темный текст */
+}
+
+.btnbtn:hover {
+  background: #d0d0d0; /* Темнее при наведении */
+}
+
+.ca {
+  background: #e0e0e0; /* Светло-серый */
+  color: #333333; /* Темный текст */
+}
+
+img.icon {
+  filter: invert(0); /* Иконки темные */
+}
+
+.kotf:hover {
+  color: #fff;
+}
